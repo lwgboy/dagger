@@ -1,9 +1,10 @@
-package com.dagger4j.smallapp.handler;
+package com.dagger.proxy.handler;
 
-import com.dagger4j.exception.MvcException;
-import com.dagger4j.mvc.http.IRequest;
-import com.dagger4j.mvc.http.IResponse;
-import com.dagger4j.mvc.http.handler.IHandler;
+
+import com.duangframework.exception.MvcException;
+import com.duangframework.mvc.http.IRequest;
+import com.duangframework.mvc.http.IResponse;
+import com.duangframework.mvc.http.handler.IHandler;
 
 /**
  * Created by laotang on 2018/6/24.

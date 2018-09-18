@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.dagger.smallapp</groupId>
-  <artifactId>dagger</artifactId>
+  <groupId>com.duangframework</groupId>
+  <artifactId>dagger-mall</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>mall-controller</module>
@@ -24,11 +24,18 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <duang.version>1.0-SNAPSHOT</duang.version>
-  </properties>
+    <controller.version>1.0-SNAPSHOT</controller.version>
+    <service.version>1.0-SNAPSHOT</service.version>
+    <entity.version>1.0-SNAPSHOT</entity.version>
+    <dto.version>1.0-SNAPSHOT</dto.version>
+    <proxy.version>1.0-SNAPSHOT</proxy.version>
+    <cache.version>1.0-SNAPSHOT</cache.version>
+    <web.version>1.0-SNAPSHOT</web.version>
 
+  </properties>
 
   <dependencies>
     <dependency>

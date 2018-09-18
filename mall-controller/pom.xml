@@ -4,13 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>dagger-mall</artifactId>
-        <groupId>com.dagger4j.smallapp</groupId>
+        <groupId>com.duangframework</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dagger4j.smallapp</groupId>
+    <groupId>com.dagger.controller</groupId>
     <artifactId>mall-controller</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <name>mall-controller</name>
     <!-- FIXME change it to the project's website -->
@@ -24,9 +25,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dagger4j.smallapp</groupId>
+            <groupId>com.dagger.service</groupId>
             <artifactId>mall-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${service.version}</version>
         </dependency>
     </dependencies>
 

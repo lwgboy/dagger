@@ -1,7 +1,8 @@
-package com.dagger4j.smallapp;
+package com.dagger.proxy;
 
-import com.dagger4j.mvc.proxy.IProxy;
-import com.dagger4j.mvc.proxy.ProxyChain;
+
+import com.duangframework.mvc.proxy.IProxy;
+import com.duangframework.mvc.proxy.ProxyChain;
 
 /**
  * Hello world!

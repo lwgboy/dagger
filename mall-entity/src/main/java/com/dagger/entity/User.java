@@ -1,7 +1,8 @@
-package com.dagger4j.smallapp;
+package com.dagger.entity;
 
 
-import com.dagger4j.vtor.annotation.*;
+
+import com.duangframework.vtor.annotation.*;
 
 import java.util.Date;
 
@@ -12,7 +13,7 @@ import java.util.Date;
 //@Bean
 public class User implements java.io.Serializable{
 
-    @DaggerId
+    @DuangId
     private String id;
 
     @Length(20)

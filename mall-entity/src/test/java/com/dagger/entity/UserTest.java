@@ -1,4 +1,4 @@
-package com.dagger4j.smallapp;
+package com.dagger.entity;
 
 import static org.junit.Assert.assertTrue;
 

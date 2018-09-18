@@ -1,12 +1,14 @@
-package com.dagger4j.smallapp;
+package com.dagger.controller;
 
-import com.dagger4j.kit.ToolsKit;
-import com.dagger4j.mvc.annotation.Controller;
-import com.dagger4j.mvc.annotation.Import;
-import com.dagger4j.mvc.annotation.Mapping;
-import com.dagger4j.mvc.core.BaseController;
-import com.dagger4j.vtor.annotation.DaggerId;
 
+import com.dagger.service.MainService;
+import com.dagger.entity.User;
+import com.duangframework.kit.ToolsKit;
+import com.duangframework.mvc.annotation.Controller;
+import com.duangframework.mvc.annotation.Import;
+import com.duangframework.mvc.annotation.Mapping;
+import com.duangframework.mvc.core.BaseController;
+import com.duangframework.vtor.annotation.DuangId;
 
 /**
  * Hello world!
@@ -43,7 +45,7 @@ public class MainController extends BaseController
     }
 
     @Mapping(value = "/save")
-    public void save(@DaggerId String id, User user)
+    public void save(@DuangId String id, User user)
     {
         System.out.println("##################user: "+ ToolsKit.toJsonString(user));
         String str = mainService.main(user.getName());

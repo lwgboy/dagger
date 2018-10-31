@@ -11,9 +11,9 @@
     <appender name="file"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <Encoding>UTF-8</Encoding>
-        <File>/home/jcala/smart/netty.log</File>
+        <File>D:/logs/dagger.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>/home/jcala/smart/smart-%d{yyyy-MM-dd}.log
+            <FileNamePattern>D:/logs/dagger-%d{yyyy-MM-dd}.log
             </FileNamePattern>
             <MaxHistory>10</MaxHistory>
             <TimeBasedFileNamingAndTriggeringPolicy
